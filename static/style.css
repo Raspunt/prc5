@@ -1,0 +1,211 @@
+
+
+
+/* base */
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.header{
+    background:url("/static/img/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1880px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.logo__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    transition: opacity 0.8s;
+}
+
+.logo__img:hover{
+    opacity: 0.5;
+}
+
+.text_white {
+    color:white
+}
+
+
+.logo_second_part{
+    color:green;
+}
+.logo_first_part{
+    color:white;
+}
+
+.header__info{
+    padding-left: 110px;
+}
+
+
+.header__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+.nav__a{
+    text-decoration: none;
+}
+
+.empty_space{
+    height: 400px;
+}
+
+.nav {
+    list-style: square;
+    color:green;
+    transition: opacity 0.8s;
+
+}
+.nav__a :hover{
+     opacity: 0.5;
+}
+
+
+.nav li:first-child{
+    list-style: none;
+    /* color: white; */
+}
+
+.sale {
+    padding: 10px;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.sale_background{
+    display: flex;
+    justify-content: center;
+    background:url("/static/img/Vector.svg") no-repeat;
+    max-width: 355px;
+    height: 216px;
+
+}
+
+.rec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("/static/img/rec_org.svg") no-repeat;
+    max-width: 341px;
+    height: 64px;
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.arrow_down{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 30px;
+    transition: opacity 0.8s;
+}
+
+
+.arrow_down :hover{
+    opacity: 0.5;
+}
+
+.benifis_text_center{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.benifis_center_div{
+    display: flex;
+
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 140px;
+
+
+
+
+
+
+}
+
+
+.benifis_blocks{
+    display: grid;
+    
+
+
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px; 
+    column-gap: 300px;
+    row-gap: 400px;
+
+    
+
+    width: 1087px;
+
+
+}
+
+.benifis_block{
+
+    background-color: green;
+    width: 300px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header__top{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.nav ul::before {
+    content: '';
+}

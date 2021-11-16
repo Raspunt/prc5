@@ -69,7 +69,7 @@ body {
 }
 
 .empty_space{
-    height: 400px;
+    height: 300px;
 }
 
 .nav {
@@ -141,53 +141,63 @@ body {
 .benifis_center_div{
     display: flex;
 
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     padding-top: 140px;
 
-
-
-
-
-
 }
+
+
+
 
 
 .benifis_blocks{
     display: grid;
     
-
-
-
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px; 
     column-gap: 300px;
     row-gap: 400px;
 
-    
-
     width: 1087px;
 
+}
+
+.benifis_img_block{
+    display: flex;
+    justify-content: center;
+}
+
+.benifis_img_block span {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border:solid #3FAF38;
+    border-radius: 50%;
+    border-width: 1px;
+    width: 60px;
+    height: 60px;
 
 }
 
 .benifis_block{
-
-    background-color: green;
     width: 300px;
     height: 400px;
 }
 
 
+.benifis_block_white{
+    background-color: white;
+    border: solid green;
+}
 
-
-
-
-
-
+.benifis_block_green{
+    background-color: #3FAF38;
+}
 
 
 
@@ -209,3 +219,87 @@ body {
 .nav ul::before {
     content: '';
 }
+
+
+.footer{
+    background-image: url('/static/img/ФОН\ 3\ ЭКРАН.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex_colunm_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+.footer_left_side{
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 150px;
+
+}
+
+.footer_left_side h1{
+    width:500px ;
+}
+
+.paddings_footer{
+    padding-right: 50px;
+    padding-left:  50px ;
+}
+
+.footer_buttons{
+    display: flex;
+    flex-direction: row;
+
+    align-items:center ;
+    justify-content: center;
+    
+
+}
+
+.footer_btn{
+    border: solid greenyellow;
+    border-radius: 22%;
+    margin: 20px;
+}
+
+.footer_inputBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer_inputBox input{
+    margin: 20px;
+    padding:10px;
+}
+
+.top_bottom_padding_footer{
+    padding-top:150px ;
+    padding-bottom:150px ;
+}
+
+.footer_left_side p {
+
+    border: solid gray;
+    padding: 30px;
+    border-radius: 4%;   
+}
+
+.footer_right_side{
+    width: 500px;
+    height: 700px;
+
+    background-color: rgb(0,0,0, 0.5);
+
+    margin-right: 200px;
+
+}
+

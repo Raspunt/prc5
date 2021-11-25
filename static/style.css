@@ -505,3 +505,126 @@ body {
 .block_4_img p{
     font-size: 20px;
 }
+
+
+.block_5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+.block_5_blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+
+
+.block_5_block{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    width: 400px;
+    height: 700px;
+    
+    background-color: white;
+
+    border: solid ;
+    border-width: 0.2px;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+.block_5_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 2000px;
+    }
+}
+
+
+.block_5_bill {
+    /* justify-content: center; */
+    font-size: 34px;
+}
+
+.block_5_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    
+}
+
+
+.block_5_img_rub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    
+}
+
+
+.block_5_img_gal img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.block_5_title{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+}
+
+
+.block_5_block_header_bg{
+    display: flex;
+    background:url('img/block_5_header_bg.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 200px;
+
+    justify-content: center;
+}
+
+
+
+.block_5_btn{
+    background-color: #3FAF38;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.block_5_btn p {
+    font-size: 20px;
+    padding-left:  30px;
+    padding-right: 30px;
+    
+}
+
+
+
+
+
+.block_5_footer_bg{
+    background:url('img/block_5_footer_bg_2.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 200px;   
+}

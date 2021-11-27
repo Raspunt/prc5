@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 4000px;
 }
 
 *,
@@ -21,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 1880px;
+    max-width: 100px;
     margin: 0 auto;
     padding: 0 20px; 
 }
@@ -56,6 +55,11 @@ body {
 }
 
 
+.dropdown{
+    display: none;
+}
+
+
 .header__wrap{
     display: flex;
     flex-direction: column;
@@ -71,6 +75,14 @@ body {
 .empty_space{
     height: 300px;
 }
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+}
+
 
 .nav {
     list-style: square;
@@ -187,6 +199,9 @@ body {
 }
 
 .benifis_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
     height: 400px;
 }
@@ -198,6 +213,8 @@ body {
 }
 
 .benifis_block_green{
+    width: 300px;
+    height: 400px;
     background-color: #3FAF38;
 }
 
@@ -212,16 +229,6 @@ body {
     justify-content: space-between;
 }
 
-.nav ul {
-    display: flex;
-    justify-content: space-between;
-    width: 800px;
-}
-
-.nav ul::before {
-    content: '';
-}
-
 
 .footer{
     background-image: url(' img/ФОН\ 3\ ЭКРАН.svg');
@@ -229,11 +236,11 @@ body {
     background-size: cover;
 }
 
-.flex_colunm_footer{
+.flex_row_footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    width: 1500px;
 
 }
 
@@ -243,7 +250,6 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding-left: 150px;
 
 }
 
@@ -297,11 +303,7 @@ body {
 
 .footer_right_side{
     width: 500px;
-    height: 700px;
-
     background-color: rgb(0,0,0, 0.5);
-
-    margin-right: 200px;
 
 }
 
@@ -322,7 +324,7 @@ body {
     background: url("img/block_img_4.png") no-repeat ;
     background-size: cover;
 
-    width: 1528px;
+    width: 100%;
     height: 629px;
     border-radius: 12px;
 
@@ -459,10 +461,7 @@ body {
 
 .block_4{
     background: url("img/ФОН\ 7\ ЭКРАН.svg") no-repeat ;
-    background-size: cover;
-
-    
-    
+    background-size: cover;    
 }
 
 
@@ -485,26 +484,7 @@ body {
 }
 
 
-.block_4_img{
-    position: relative;
-    display: flex;
 
-    background: url("img/Vector.svg") no-repeat ;
-    background-size: cover;
-
-    justify-content: center;
-    padding-left: 10px;
-
-    width: 227px;
-    height: 144px;
-    top: -693px;
-    left: 943px;
-
-}
-
-.block_4_img p{
-    font-size: 20px;
-}
 
 
 .block_5{
@@ -541,17 +521,6 @@ body {
     border-radius: 12px;
 }
 
-@media only screen and (max-width: 800px) {
-
-
-.block_5_blocks{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 2000px;
-    }
-}
 
 
 .block_5_bill {

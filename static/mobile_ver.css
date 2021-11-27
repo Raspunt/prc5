@@ -1,0 +1,484 @@
+
+@media only screen and (max-width: 1200px) {
+
+    .benifis_blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        column-gap: 0px;
+        row-gap: 30px;
+
+        width: 1087px; 
+
+    }
+
+    .header__wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        padding-top: 40px;
+    }    
+
+    .nav ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+    }
+    
+
+    .block_comment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+        background-color: rgb(0,0,0, 0.5);
+    
+        border-radius: 22px;
+    
+        width: 100%;
+        
+    }
+
+    .block_2_text{
+        padding: 20px;
+        /* font-weight: 900; */
+        font-size: 30px;
+    }
+
+    .block_2{
+        height: 1000px;
+    }
+    
+
+
+    .block_1_image{
+        width: 100%;
+        height: 370px;
+    }
+
+
+    .header__top{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-evenly;
+    }
+    
+
+
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+
+
+    .nav{
+        display: none;
+    }
+
+
+    
+    .block_3_block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        width: 700px;
+    
+        background-color: cornflowerblue;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+
+    .block_3_conatcts{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 150px;
+        width: 800px;
+    }
+    
+    
+    .block_3_btn{
+        background-color: #3FAF38;
+        border-radius: 40px;
+        margin-bottom: 22px;    
+    }
+    
+    .block_3_btn p {
+        padding: 4px;
+        font-weight: 900;
+        font-size: 12px;
+    
+    }
+
+    
+
+
+    .block_5_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+
+        justify-content: space-evenly;
+
+    }
+
+    .block_5_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+        width: 400px;
+        height: 400px;
+        
+        background-color: white;
+    
+        border: solid ;
+        border-width: 0.2px;
+        border-radius: 12px;
+    }
+    
+    
+    
+
+
+
+    .benifis_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 400px;
+    }
+
+    .benifis_block :last-child{
+        margin-bottom: 100px;
+    }
+
+    
+
+    .benifis_block_green{
+        background-color: #3FAF38;
+        width: 500px;
+        height: 400px;
+
+    }
+
+    .flex_row_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 1000px;
+    }
+
+
+    .footer_right_side{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media only screen and (max-width: 740px) {
+
+
+    .footer_left_side {
+        width:300px ;
+    }
+
+    .footer_rifgt_side {
+        width:300px ;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .paddings_footer{
+        padding-right: 100px;
+        padding-left:  100px ;
+    }
+    
+    
+
+
+    .benifis_blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        column-gap: 0px;
+        row-gap: 30px;
+
+        width: 1087px; 
+
+    }
+
+    .header__wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+        padding-top: 40px;
+    }    
+
+    .nav ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+    }
+    
+
+    .block_comment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+        background-color: rgb(0,0,0, 0.5);
+    
+        border-radius: 22px;
+    
+        width: 100%;
+        
+    }
+
+    .block_2_text{
+        padding: 20px;
+        /* font-weight: 900; */
+        font-size: 30px;
+    }
+
+    .block_2{
+        height: 1000px;
+    }
+    
+
+
+    .block_1_image{
+        width: 100%;
+        height: 370px;
+    }
+
+
+    .header__top{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-evenly;
+    }
+    
+
+
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+
+
+    .nav{
+        display: none;
+    }
+
+
+    
+    .block_3_block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        width: 700px;
+    
+        background-color: cornflowerblue;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+
+    .block_3_conatcts{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 150px;
+        width: 800px;
+    }
+    
+    
+    .block_3_btn{
+        background-color: #3FAF38;
+        border-radius: 40px;
+        margin-bottom: 22px;    
+    }
+    
+    .block_3_btn p {
+        padding: 4px;
+        font-weight: 900;
+        font-size: 12px;
+    
+    }
+
+    .block_4{
+        background: url("img/ФОН\ 7\ ЭКРАН.svg") no-repeat ;
+        background-size:cover;
+    }
+
+
+    .block_5_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+
+        justify-content: space-evenly;
+
+    }
+
+    .block_5_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+        width: 400px;
+        height: 400px;
+        
+        background-color: white;
+    
+        border: solid ;
+        border-width: 0.2px;
+        border-radius: 12px;
+    }
+    
+    
+    
+
+
+
+    .benifis_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 400px;
+    }
+
+    .benifis_block :last-child{
+        margin-bottom: 100px;
+    }
+
+    
+
+    .benifis_block_green{
+        background-color: #3FAF38;
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .flex_row_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 1000px;
+    }
+
+
+    .footer_right_side{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+
+
+
+
